@@ -1,0 +1,33 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  #one{
+    border:2px solid black;
+    padding:10px;
+    background-color: gray;
+    disp
+    
+  }
+  #two{
+     border:2px solid black;
+    padding:50px;
+    background-color: pink;
+    
+    
+  }
+  #increment{
+    background-color: orchid;
+  }
+  #decrement{
+    background-color: orchid;
+  }
+  #multi{
+    background-color: orchid;
+  }
+  #divide{
+    background-color: orchid;
+  }
