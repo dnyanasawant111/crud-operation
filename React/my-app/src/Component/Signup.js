@@ -11,7 +11,7 @@ import {
   Row,
   Select,
 } from 'antd';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 const { Option } = Select;
 const residences = [
   {
@@ -78,6 +78,12 @@ const tailFormItemLayout = {
   },
 };
 const App = () => {
+
+
+  fetch('http://example.com/movies.json')
+  .then((response) => response.json())
+  .then((data) => console.log(data));
+ 
   const [form] = Form.useForm();
   const onFinish = (values) => {
     console.log('Received values of form: ', values);
